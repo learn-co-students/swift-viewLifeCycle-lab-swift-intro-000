@@ -1,0 +1,6 @@
+framework module Pods_FunWithViews {
+  umbrella header "Pods-FunWithViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
