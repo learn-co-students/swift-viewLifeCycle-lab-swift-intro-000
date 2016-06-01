@@ -46,6 +46,7 @@ view1.hidden = false // view is no longer hidden
 * They should have separate methods perform the tasks they want done. Remind them that a function should do one thing and do that one thing well. They shouldn't have everything sitting in ONE method (the roll die method), they should be calling on other methods within that die roll method. **That being said**, I wonder how explicit I want to be with the students with this... meaning, maybe we nudge them in the right direction (but how?).
 * It's possible to include tests here, where we could use [KIF - iOS Functional Testing Framework](https://github.com/kif-framework/KIF/). I've included it with this repo. Thoughts on this?
 * I didn't remove the view elements in storyboard, that way.. you can see how I set it up :)
+* Possibly.... maybe.. didn't setup the Podfile correctly if we're to use KIF. Need to look more into this so that way we implement this the right way.
   
 ![Interface Builder](http://i.imgur.com/R3sI0pa.png?1)
 
