@@ -1,11 +1,10 @@
 # Roll The Dice
 
-<img src="http://wp.patheos.com.s3.amazonaws.com/blogs/friendlyatheist/files/2014/06/image006.jpg" alt="Drawing" style="width: 200px;"/>  
-
+![Drawing](http://wp.patheos.com.s3.amazonaws.com/blogs/friendlyatheist/files/2014/06/image006.jpg)
 
 > And what greater might do we possess as human beings than our capacity to question and to learn?
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives - The student should be able to...
 
 * Complete this lab which will encompass everything they learned in Unit 4.
 * This should be changed to reflect actual words (lol).
