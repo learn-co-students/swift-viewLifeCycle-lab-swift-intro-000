@@ -53,6 +53,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="🎲"/>
+                                <connections>
+                                    <action selector="rollDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIH-1k-cxf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EN7-96-hL4">
                                 <rect key="frame" x="20" y="377" width="30" height="30"/>
@@ -105,6 +108,21 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomLeftView" destination="3zB-FA-47b" id="ppb-Cl-UCZ"/>
+                        <outlet property="bottomRightView" destination="Umo-3b-5zx" id="a7H-zM-19J"/>
+                        <outlet property="middleLeftView" destination="g6g-DO-APw" id="dyh-g7-Kov"/>
+                        <outlet property="middleRightView" destination="4iz-3x-Eli" id="Lem-53-40y"/>
+                        <outlet property="middleView" destination="sn8-xd-6gD" id="L7t-RH-RLi"/>
+                        <outlet property="score0" destination="EN7-96-hL4" id="5gJ-pZ-bQN"/>
+                        <outlet property="score1" destination="HX4-G1-GrS" id="Ij9-og-dpR"/>
+                        <outlet property="score2" destination="WJZ-cA-Aoq" id="oiJ-29-wcG"/>
+                        <outlet property="score3" destination="cC5-Av-k92" id="EN5-Co-Unh"/>
+                        <outlet property="score4" destination="Yqa-ib-Tjj" id="Vo8-PL-wIO"/>
+                        <outlet property="score5" destination="8HI-vN-Sud" id="HyU-VS-UvY"/>
+                        <outlet property="topLeftView" destination="QVN-79-12m" id="kCZ-sR-4qg"/>
+                        <outlet property="topRightView" destination="Nye-V5-NFZ" id="3Lp-6b-T6D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
