@@ -16,12 +16,8 @@ class ViewController: UIViewController {
         
     }
     
-    
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
     }
-
-   
-
 }
