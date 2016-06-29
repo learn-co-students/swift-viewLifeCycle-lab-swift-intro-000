@@ -6,21 +6,7 @@
 
 ## Learning Objectives - The student should be able to...
 
-* Complete this lab which will encompass everything they learned in Unit 4.
-* This should be changed to reflect actual words (lol).
-
-## What the student can do at this point 
-
-* Has a general overview of Xcode and is able to create a new project.
-* Knows where to locate the testing file within Xcode.
-* Knows how to navigate to Interface Builder.
-* Knows what a storyboard file is.
-* Has a brief overview of what the Object Library is.
-* Can drag a View Controller onto the canvas.
-* Can locate and drag items from the Object Library.
-* Can locate the Attributes Inspector and change the Background color of Views
-* They know how to connect the ViewController.swift file and understand it's view life cycle.
-* Can hook up IBOutlets and IBActions.
+* Complete this lab 
 
 ## DiceRoll
 
