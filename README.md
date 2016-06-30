@@ -39,15 +39,15 @@ Before you get started, here are a couple examples of how your app should look i
 
 First, it should look like this at startup:
 
-![App: Launch](http://i.imgur.com/KHVd1pU.png)
+![App: Launch](http://i.imgur.com/morQLTm.png?1)
 
 It should look like this after one roll of the die:
 
-![App: Roll 1](http://i.imgur.com/KfvWdp2.png)
+![App: Roll 1](http://i.imgur.com/LJOIgWJ.png?1)
 
 And it should look like this after the sixth roll of the die:
 
-![App: Roll 6](http://i.imgur.com/XvuU6Ao.png)
+![App: Roll 6](http://i.imgur.com/QM2SZ4x.png?1)
 
 What you do after 6 rolls is up to you. You can clear the screen and start fresh, you can just start filling in the score boxes from the left again, or you can even forbid the user from rolling the dice more than 6 times—it's up to you!
 
