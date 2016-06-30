@@ -1,12 +1,10 @@
 # Roll the Dice
 
-![Drawing](http://wp.patheos.com.s3.amazonaws.com/blogs/friendlyatheist/files/2014/06/image006.jpg)
+![Drawing](http://i.imgur.com/NQkEJ7o.jpg?1)
 
-> And what greater might do we possess as human beings than our capacity to question and to learn?
+> And what greater might do we possess as human beings than our capacity to question and to learn? -[Ann Druyan](https://en.wikipedia.org/wiki/Ann_Druyan)
 
-## Learning Objectives - The student should be able to...
 
-* Complete this lab 
 
 ## DiceRoll
 
