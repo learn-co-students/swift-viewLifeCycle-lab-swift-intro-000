@@ -80,6 +80,5 @@ That is essentially all you need to do to make this die-rolling app work. Not so
 
 Good luck!
 
-<a href='https://learn.co/lessons/ViewLifeCycleLAB' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-viewLifeCycle-lab'>View LifeCycle Lab</a> on Learn.co and start learning to code for free.</p>
