@@ -47,7 +47,7 @@ It should look like this after one roll of the die:
 
 ![App: Roll 1](http://i.imgur.com/LJOIgWJ.png?1)
 
-And it should look like this after the sixth roll of the die:
+And it should look like this after the sixth roll of the dice:
 
 ![App: Roll 6](http://i.imgur.com/QM2SZ4x.png?1)
 
