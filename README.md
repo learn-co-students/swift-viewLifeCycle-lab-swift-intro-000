@@ -6,11 +6,13 @@
 
 
 
-## DiceRoll
+## Overview
 
 In this lab, you are going to make an app called DiceRoll that looks like this:
 
 ![DiceRoll](http://i.imgur.com/RyoBMXf.png)
+
+## Instructions
 
 This application may _look_ complicated, but it's actually pretty simple. Here's what your app should do:
 
@@ -73,10 +75,10 @@ Well, okay. This is a pretty hard assignment, so we'll give you some hints on th
         ```swift
         scoreLabel1.text = "\(randomRollValue)"
         ```
+       
+	4. The above work should be done in separate methods. For example, you may create a method called `rearrangeDie()` that will show or hide the black squares, and `updateScore()` that will update one of the score labels. Those methods should be called from the die button's IB action method, rather than having all the work done in one place. This is not _necessary_, but it will make your code a bit more organized, and it's a good habit to get into.
 
-    4. The above work should be done in separate methods. For example, you may create a method called `rearrangeDie()` that will show or hide the black squares, and `updateScore()` that will update one of the score labels. Those methods should be called from the die button's IB action method, rather than having all the work done in one place. This is not _necessary_, but it will make your code a bit more organized, and it's a good habit to get into.
-
-That is essentially all you need to do to make this die-rolling app work. Not so bad, huh? You're a bit on your own as far as figuring out exactly how to do all that work goes, but if you get stuck, refer back to your previous lessons—they can help you finish up this lab in no time at all.
+That is essentially all you need to do to make this die-rolling app work. Not so bad, huh? You're a bit on your own as far as figuring out exactly how to do all that work goes, but if you get stuck, refer back to previous lessons—they can help you finish up this lab in no time at all.
 
 Good luck!
 
