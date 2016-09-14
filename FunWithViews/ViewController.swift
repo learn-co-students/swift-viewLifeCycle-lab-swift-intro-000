@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func dieButtonTapped(sender: AnyObject) {
+    @IBAction func dieButtonTapped(_ sender: AnyObject) {
         
     }
     
