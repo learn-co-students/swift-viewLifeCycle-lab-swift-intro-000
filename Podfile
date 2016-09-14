@@ -10,9 +10,7 @@ target 'FunWithViews' do
   target 'FunWithViewsTests' do
     inherit! :search_paths
     # Pods for testing
-	pod 'Quick', '~> 0.9'
-	pod 'Nimble', '~> 4.0'
-	pod 'KIF', '~> 3.4'
+
   end
 
   target 'FunWithViewsUITests' do
