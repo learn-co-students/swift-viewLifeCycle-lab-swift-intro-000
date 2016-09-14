@@ -64,7 +64,7 @@ Well, okay. This is a pretty hard assignment, so we'll give you some hints on th
 3. Open up `ViewController.swift` in an Assistant Editor pane.
 4. You should first add the seven views representing the dice to the top half of the interface. You can drag these views from the object library onto the Interface Builder canvas, and arrange them as shown in the screenshots above.
 5. You should then add the six colored score labels along the middle of the screen. Remember: You can set their background color using the Attributes Inspector.
-6. Since you will be interacting with all thirteen of these views, you should configure IB outlets in `ViewController` so that the view controller can interact with them. <kbd>Control</kbd>-drag a connection from each of these twelve views to `ViewController.swift` to create them.
+6. Since you will be interacting with all thirteen of these views, you should configure IB outlets in `ViewController` so that the view controller can interact with them. <kbd>Control</kbd>-drag a connection from each of these thirteen views to `ViewController.swift` to create them.
 7. These views should initially be hidden from the user, so you should do some setup in `ViewController`'s `viewDidLoad()` method to hide them initially.
 8. The main view already has a button configured at the bottom, but it is not hooked up to anything yet. <kbd>Control</kbd>-drag from the button to `ViewController.swift` to create a new IB action for the button.
 9. The dice button's IB action needs to do several things:
