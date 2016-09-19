@@ -66,7 +66,7 @@ Well, okay. This is a pretty hard assignment, so we'll give you some hints on th
 5. You should then add the six colored score labels along the middle of the screen. Remember: You can set their background color using the Attributes Inspector.
 6. Since you will be interacting with all thirteen of these views, you should configure IB outlets in `ViewController` so that the view controller can interact with them. <kbd>Control</kbd>-drag a connection from each of these thirteen views to `ViewController.swift` to create them.
 7. These views should initially be hidden from the user, so you should do some setup in `ViewController`'s `viewDidLoad()` method to hide them initially.
-8. The main view already has a button configured at the bottom, but it is not hooked up to anything yet. <kbd>Control</kbd>-drag from the button to `ViewController.swift` to create a new IB action for the button.
+8. The main view already has a button configured at the bottom, it is already hooked up as @IBAction func dieButtonTapped(_ sender: AnyObject
 9. The dice button's IB action needs to do several things:
 	1. It needs to generate a random number from 1 to 6. `ViewController` already has a method, `randomDiceRoll()`, that will generate this random number for you.
 	2. It needs to show and hide the appropriate black square views in order to display how that random roll would look on a real die.
