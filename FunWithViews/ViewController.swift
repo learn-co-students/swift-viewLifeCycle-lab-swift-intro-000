@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    var roll = randomDiceRoll
     
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
@@ -25,7 +27,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var L6: UILabel!
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
+       
         
+        updateLabelWithRoll(roll: randomDiceRoll())
+        rearrangeDie()
     }
     
     override func viewDidLoad() {
@@ -46,9 +51,53 @@ class ViewController: UIViewController {
         
     }
     
+
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
+    }
+    
+    
+    func updateLabelWithRoll(roll: Int) {
+        
+        let diceScore = String(roll)
+        
+        if L1.isHidden {
+            L1.text = diceScore
+            L1.isHidden = false
+        } else if L2.isHidden {
+            L2.text = diceScore
+            L2.isHidden = false
+        } else if L3.isHidden {
+            L3.text = diceScore
+            L3.isHidden = false
+        } else if L4.isHidden {
+            L4.text = diceScore
+            L4.isHidden = false
+        } else if L5.isHidden {
+            L5.text = diceScore
+            L5.isHidden = false
+        } else if L6.isHidden {
+            L6.text = diceScore
+            L6.isHidden = false
+        }
+    }
+    
+    func rearrangeDie() {
+        if L1.isHidden == false {
+            view1.isHidden = false
+            view2.isHidden = false
+            view4.isHidden = false
+            view6.isHidden = false
+        } else if L6.isHidden == false {
+            view1.isHidden = true
+            view2.isHidden = true
+            view3.isHidden = true
+            view4.isHidden = true
+            view5.isHidden = true
+            view6.isHidden = true
+            view7.isHidden = true
+        }
     }
     
 }
