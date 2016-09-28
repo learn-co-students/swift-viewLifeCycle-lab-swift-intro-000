@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C" : 9223372036854775807,
+    "424BB9809911A9025B1C9530212318009BA5A3C3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "440C4F59-7342-4122-8E18-F9BC4515757E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C" : "swift-viewLifeCycle-lab-swift-intro-000\/",
+    "424BB9809911A9025B1C9530212318009BA5A3C3" : "swift-viewLifeCycle-lab-swift-intro-000\/FunWithViews\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FunWithViews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FunWithViews.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daxapps\/FunWithViews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "424BB9809911A9025B1C9530212318009BA5A3C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/learn-co-students\/swift-viewLifeCycle-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C"
+    }
+  ]
+}
