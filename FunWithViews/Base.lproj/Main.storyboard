@@ -101,6 +101,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomOfDeadMiddle" destination="kdL-J1-E49" id="mn5-fk-x9O"/>
+                        <outlet property="bottomOfFarLeft" destination="CgQ-0a-dOd" id="j7O-dv-46b"/>
+                        <outlet property="bottomOfFarRight" destination="4lq-MH-Zy0" id="yUZ-lI-PYp"/>
+                        <outlet property="deadMiddle" destination="eDE-BI-764" id="CIJ-Zt-kU7"/>
+                        <outlet property="midFarLeft" destination="KoQ-Mp-9Sk" id="FDG-eO-MUU"/>
+                        <outlet property="midFarRight" destination="lcl-xP-JB9" id="mPi-XC-k4I"/>
+                        <outlet property="topOfDeadMiddle" destination="Xg2-Jf-lfj" id="EYR-fB-taP"/>
+                        <outlet property="topOfFarLeft" destination="Zwy-bg-qSH" id="BuW-6L-Riz"/>
+                        <outlet property="topOfFarRight" destination="Zyb-rW-GdY" id="LI0-Ga-ryr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
