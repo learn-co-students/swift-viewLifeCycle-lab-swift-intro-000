@@ -14,15 +14,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KJ2-o6-dr5">
-                                <frame key="frameInset" minX="153" minY="450" width="68" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="🎲"/>
-                                <connections>
-                                    <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" misplaced="YES" id="Zwy-bg-qSH">
                                 <frame key="frameInset" minX="74" minY="76" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,33 +62,96 @@
                             <view contentMode="scaleToFill" misplaced="YES" id="Dws-u9-fDR">
                                 <frame key="frameInset" minX="74" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ync-gG-4xc">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="6jz-6d-fAq">
                                 <frame key="frameInset" minX="112" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h2w-4s-AgC">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="jve-wI-aYX">
                                 <frame key="frameInset" minX="150" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hHt-i7-qne">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="B9f-6S-62X">
                                 <frame key="frameInset" minX="188" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yLA-8i-0ig">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="1dJ-q5-6UN">
                                 <frame key="frameInset" minX="226" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="axb-WL-G1v">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="JeZ-SH-ZXL">
                                 <frame key="frameInset" minX="264" minY="404" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sYB-Ia-7CB">
+                                        <frame key="frameInset" minY="5" width="30" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KJ2-o6-dr5">
+                                <frame key="frameInset" minX="157" minY="507" width="68" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="🎲"/>
+                                <connections>
+                                    <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -105,9 +159,21 @@
                         <outlet property="bottomOfDeadMiddle" destination="kdL-J1-E49" id="mn5-fk-x9O"/>
                         <outlet property="bottomOfFarLeft" destination="CgQ-0a-dOd" id="j7O-dv-46b"/>
                         <outlet property="bottomOfFarRight" destination="4lq-MH-Zy0" id="yUZ-lI-PYp"/>
+                        <outlet property="bottomRow1" destination="Dws-u9-fDR" id="f29-7h-sFa"/>
+                        <outlet property="bottomRow2" destination="6jz-6d-fAq" id="VHK-17-7vA"/>
+                        <outlet property="bottomRow3" destination="jve-wI-aYX" id="3cH-zh-wIR"/>
+                        <outlet property="bottomRow4" destination="B9f-6S-62X" id="UuQ-jO-nSp"/>
+                        <outlet property="bottomRow5" destination="1dJ-q5-6UN" id="v8C-2S-V8T"/>
+                        <outlet property="bottomRow6" destination="JeZ-SH-ZXL" id="ibD-2W-Uzz"/>
                         <outlet property="deadMiddle" destination="eDE-BI-764" id="CIJ-Zt-kU7"/>
+                        <outlet property="fifthSquareNum" destination="axb-WL-G1v" id="7LT-HJ-X1e"/>
+                        <outlet property="firstSquareNum" destination="Ync-gG-4xc" id="ahP-DF-NlA"/>
+                        <outlet property="fourthSquareNum" destination="yLA-8i-0ig" id="M01-Ax-LD9"/>
                         <outlet property="midFarLeft" destination="KoQ-Mp-9Sk" id="FDG-eO-MUU"/>
                         <outlet property="midFarRight" destination="lcl-xP-JB9" id="mPi-XC-k4I"/>
+                        <outlet property="secondSquareNum" destination="h2w-4s-AgC" id="yPe-Ym-JgT"/>
+                        <outlet property="sixthSquareNum" destination="sYB-Ia-7CB" id="R8W-qb-Ade"/>
+                        <outlet property="thirdSquareNum" destination="hHt-i7-qne" id="0Ta-lD-B1P"/>
                         <outlet property="topOfDeadMiddle" destination="Xg2-Jf-lfj" id="EYR-fB-taP"/>
                         <outlet property="topOfFarLeft" destination="Zwy-bg-qSH" id="BuW-6L-Riz"/>
                         <outlet property="topOfFarRight" destination="Zyb-rW-GdY" id="LI0-Ga-ryr"/>
