@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var roll = randomDiceRoll
-    
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     @IBOutlet weak var view3: UIView!
