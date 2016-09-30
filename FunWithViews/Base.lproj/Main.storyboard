@@ -10,7 +10,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FunWithViews" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Gray">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -23,9 +23,89 @@
                                     <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="7AZ-sR-oKe" userLabel="Dot11" customClass="UILabel">
+                                <frame key="frameInset" minY="7" width="89" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="mIs-oi-EIz" customClass="UILabel">
+                                <frame key="frameInset" minY="129" width="89" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="67E-GH-28p" customClass="UILabel">
+                                <frame key="frameInset" minX="279" minY="129" width="105" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zqr-7h-poj" customClass="UILabel">
+                                <frame key="frameInset" minY="252" width="89" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="U8q-eT-fqr" customClass="UILabel">
+                                <frame key="frameInset" minX="279" minY="252" width="96" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="6Qm-U8-DIa" customClass="UILabel">
+                                <frame key="frameInset" minX="139" minY="129" width="97" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="0cS-zQ-ge5" customClass="UILabel">
+                                <frame key="frameInset" minX="-4" minY="387" width="54" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="ngf-PZ-rh2" customClass="UILabel">
+                                <frame key="frameInset" minX="65" minY="387" width="45" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zvg-93-i58" customClass="UILabel">
+                                <frame key="frameInset" minX="132" minY="387" width="45" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="1XO-Hd-eUa" customClass="UILabel">
+                                <frame key="frameInset" minX="200" minY="387" width="45" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="bHw-gq-wIO" customClass="UILabel">
+                                <frame key="frameInset" minX="260" minY="387" width="45" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="Oti-Sw-aN6" customClass="UILabel">
+                                <frame key="frameInset" minX="330" minY="387" width="45" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zRl-9L-ZzA" customClass="UILabel">
+                                <frame key="frameInset" minX="279" minY="7" width="96" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="dot11" destination="7AZ-sR-oKe" id="mTi-dn-HHP"/>
+                        <outlet property="dot12" destination="zRl-9L-ZzA" id="8hf-Ag-DKz"/>
+                        <outlet property="dot21" destination="mIs-oi-EIz" id="zmL-th-c5y"/>
+                        <outlet property="dot22" destination="6Qm-U8-DIa" id="Mf6-bm-hU7"/>
+                        <outlet property="dot23" destination="67E-GH-28p" id="7f1-W7-RBg"/>
+                        <outlet property="dot31" destination="zqr-7h-poj" id="k3M-Ws-AkK"/>
+                        <outlet property="dot32" destination="U8q-eT-fqr" id="o4d-Km-8VY"/>
+                        <outlet property="res1" destination="0cS-zQ-ge5" id="P0N-14-dwH"/>
+                        <outlet property="res2" destination="ngf-PZ-rh2" id="f1s-sA-SSK"/>
+                        <outlet property="res3" destination="zvg-93-i58" id="6on-gX-n6r"/>
+                        <outlet property="res4" destination="1XO-Hd-eUa" id="jw7-bZ-gZx"/>
+                        <outlet property="res5" destination="bHw-gq-wIO" id="Z3O-Vk-Ovf"/>
+                        <outlet property="res6" destination="Oti-Sw-aN6" id="mHU-ig-zDm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
