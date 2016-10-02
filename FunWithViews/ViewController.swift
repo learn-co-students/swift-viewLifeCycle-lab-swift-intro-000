@@ -28,6 +28,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         print("viewDidLoad() called")
         super.viewDidLoad()
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         topLeft.isHidden = true
         middleLeft.isHidden = true
         bottomLeft.isHidden = true
@@ -41,10 +46,6 @@ class ViewController: UIViewController {
         labelFour.isHidden = true
         labelFive.isHidden = true
         labelSix.isHidden = true
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         print("viewWillAppear(_:) called")
     }
     
@@ -54,11 +55,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-        let roll = randomDiceRoll()
-        displayDiceRoll(roll: roll)
-        updateLabelWithRoll(roll: roll)
-        print("dieButtonTapped() called")
-        
+    
+            let roll = randomDiceRoll()
+            displayDiceRoll(num: roll)
+            updateLabelWithRoll(numRolled: roll)
+            print("dieButtonTapped() called")
+
     }
     
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
@@ -66,8 +68,8 @@ class ViewController: UIViewController {
         return Int(arc4random_uniform(6) + 1)
     }
     
-    func displayDiceRoll(roll: Int) {
-        if roll == 1 {
+    func displayDiceRoll(num: Int) {
+        if num%6 == 1 {
             topLeft.isHidden = true
             middleLeft.isHidden = true
             bottomLeft.isHidden = true
@@ -76,7 +78,7 @@ class ViewController: UIViewController {
             middleRight.isHidden = true
             bottomRight.isHidden = true
         }
-        else if roll == 2 {
+        else if num%6 == 2 {
             topLeft.isHidden = false
             middleLeft.isHidden = true
             bottomLeft.isHidden = true
@@ -85,7 +87,7 @@ class ViewController: UIViewController {
             middleRight.isHidden = true
             bottomRight.isHidden = false
         }
-        else if roll == 3 {
+        else if num%6 == 3 {
             topLeft.isHidden = false
             middleLeft.isHidden = true
             bottomLeft.isHidden = true
@@ -94,7 +96,7 @@ class ViewController: UIViewController {
             middleRight.isHidden = true
             bottomRight.isHidden = false
         }
-        else if roll == 4 {
+        else if num%6 == 4 {
             topLeft.isHidden = false
             middleLeft.isHidden = true
             bottomLeft.isHidden = false
@@ -103,7 +105,7 @@ class ViewController: UIViewController {
             middleRight.isHidden = true
             bottomRight.isHidden = false
         }
-        else if roll == 1 {
+        else if num%6 == 5 {
             topLeft.isHidden = false
             middleLeft.isHidden = true
             bottomLeft.isHidden = false
@@ -112,11 +114,21 @@ class ViewController: UIViewController {
             middleRight.isHidden = true
             bottomRight.isHidden = false
         }
+        else if num%6 == 0 {
+            topLeft.isHidden = false
+            middleLeft.isHidden = false
+            bottomLeft.isHidden = false
+            middle.isHidden = true
+            topRight.isHidden = false
+            middleRight.isHidden = false
+            bottomRight.isHidden = false
+        }
+
     }
     
-    func updateLabelWithRoll(roll: Int) {
+    func updateLabelWithRoll(numRolled: Int) {
         
-        let diceScore = String(roll)
+        let diceScore = String(numRolled)
         
         if labelOne.isHidden == true {
             labelOne.text = diceScore
@@ -136,7 +148,20 @@ class ViewController: UIViewController {
         } else if labelSix.isHidden == true {
             labelSix.text = diceScore
             labelSix.isHidden = false
+        } else if labelOne.isHidden == false && labelTwo.isHidden == false && labelThree.isHidden == false && labelFour.isHidden == false && labelFive.isHidden == false && labelSix.isHidden == false {
+            labelOne.isHidden = true
+            labelTwo.isHidden = true
+            labelThree.isHidden = true
+            labelFour.isHidden = true
+            labelFive.isHidden = true
+            labelSix.isHidden = true
+            topLeft.isHidden = true
+            middleLeft.isHidden = true
+            bottomLeft.isHidden = true
+            middle.isHidden = true
+            topRight.isHidden = true
+            middleRight.isHidden = true
+            bottomRight.isHidden = true
         }
     }
-
 }
