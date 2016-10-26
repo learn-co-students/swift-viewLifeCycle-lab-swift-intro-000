@@ -26,10 +26,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel6: UILabel!
     
     
-    
     //runs once when view appears on device
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    func viewSetup() {
+        
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
