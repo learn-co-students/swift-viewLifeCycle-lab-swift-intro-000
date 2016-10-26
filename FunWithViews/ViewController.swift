@@ -27,12 +27,13 @@ class ViewController: UIViewController {
     
     
     
+    //runs once when view appears on device
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-        
+    
         
     }
     
