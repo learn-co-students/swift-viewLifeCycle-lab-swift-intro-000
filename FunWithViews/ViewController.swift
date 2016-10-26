@@ -10,6 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var topLeftView: UIView!
+    @IBOutlet weak var middleLeftView: UIView!
+    @IBOutlet weak var bottomLeftView: UIView!
+    @IBOutlet weak var middleView: UIView!
+    @IBOutlet weak var topRightView: UIView!
+    @IBOutlet weak var middleRightView: UIView!
+    @IBOutlet weak var bottomRightView: UIView!
+    
+    @IBOutlet weak var scoreLabel1: UILabel!
+    @IBOutlet weak var scoreLabel2: UILabel!
+    @IBOutlet weak var scoreLabel3: UILabel!
+    @IBOutlet weak var scoreLabel4: UILabel!
+    @IBOutlet weak var scoreLabel5: UILabel!
+    @IBOutlet weak var scoreLabel6: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
