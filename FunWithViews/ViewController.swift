@@ -32,6 +32,13 @@ class ViewController: UIViewController {
     }
     
     func viewSetup() {
+        topLeftView.isHidden = true
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = true
+        middleView.isHidden = true
+        topRightView.isHidden = true
+        middleRightView.isHidden = true
+        bottomRightView.isHidden = true 
         
     }
     
