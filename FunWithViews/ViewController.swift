@@ -52,15 +52,36 @@ class ViewController: UIViewController {
     }
     
 
+    //Create functions for each number view
     
-    @IBAction func dieButtonTapped(_ sender: AnyObject) {
     
+    //Create a function which selects certain views to show based on the dice roll value.
+    func viewSelector(number: Int) {
+        switch number {
+        case 1:
+            print("1 was rolled")
+        case 2:
+            print("2 was rolled")
+        default:
+            print("Something higher than 2")
+        }
         
     }
+    
     
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
     }
+    
+    
+    @IBAction func dieButtonTapped(_ sender: AnyObject) {
+        let rollNumber = randomDiceRoll()
+        print(rollNumber)
+        viewSelector(number: rollNumber)
+    
+    }
+    
+   
 
 }
