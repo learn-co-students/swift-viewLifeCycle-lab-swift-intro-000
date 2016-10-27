@@ -25,12 +25,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel5: UILabel!
     @IBOutlet weak var scoreLabel6: UILabel!
     
-    
-    //runs once when view appears on device
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     func viewSetup() {
         topLeftView.isHidden = true
         middleLeftView.isHidden = true
@@ -38,9 +32,26 @@ class ViewController: UIViewController {
         middleView.isHidden = true
         topRightView.isHidden = true
         middleRightView.isHidden = true
-        bottomRightView.isHidden = true 
+        bottomRightView.isHidden = true
+        
+        scoreLabel1.isHidden = true
+        scoreLabel2.isHidden = true
+        scoreLabel3.isHidden = true
+        scoreLabel4.isHidden = true
+        scoreLabel5.isHidden = true
+        scoreLabel6.isHidden = true
         
     }
+    
+    
+    //runs once when view appears on device
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //run func to make views and labels disappear
+        viewSetup()
+    }
+    
+
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
     
