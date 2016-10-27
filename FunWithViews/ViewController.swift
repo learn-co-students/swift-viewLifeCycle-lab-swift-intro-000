@@ -55,11 +55,22 @@ class ViewController: UIViewController {
     //Create functions for each rolled number's view
     
     func oneRolledView() {
+        topLeftView.isHidden = true
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = true
         middleView.isHidden = false
+        topRightView.isHidden = true
+        middleRightView.isHidden = true
+        bottomRightView.isHidden = true
     }
     
     func twoRolledView() {
         topLeftView.isHidden = false
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = true
+        middleView.isHidden = true
+        topRightView.isHidden = true
+        middleRightView.isHidden = true
         bottomRightView.isHidden = false
         
     }
@@ -71,14 +82,14 @@ class ViewController: UIViewController {
         case 1:
             oneRolledView()
         case 2:
-            print("2 was rolled")
-        case 3:
-            
-        case 4:
-            
-        case 5:
-            
-        case 6:
+            twoRolledView()
+//        case 3:
+//            
+//        case 4:
+//            
+//        case 5:
+//            
+//        case 6:
             
         default:
             print("Something went wrong, try again.")
