@@ -54,18 +54,22 @@ class ViewController: UIViewController {
 
     //Create functions for each rolled number's view
     
-    func roll1() {
+    func oneRolledView() {
         middleView.isHidden = false
     }
     
-    
+    func twoRolledView() {
+        topLeftView.isHidden = false
+        bottomRightView.isHidden = false
+        
+    }
     
     
     //Create a function which selects certain views to show based on the dice roll value.
     func viewSelector(number: Int) {
         switch number {
         case 1:
-            roll1()
+            oneRolledView()
         case 2:
             print("2 was rolled")
         case 3:
