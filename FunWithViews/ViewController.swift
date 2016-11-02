@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     func viewSetup() {
-  
+        hideAllViews()
         
         scoreLabel1.isHidden = true
         scoreLabel2.isHidden = true
