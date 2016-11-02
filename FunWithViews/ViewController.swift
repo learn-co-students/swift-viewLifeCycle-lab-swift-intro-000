@@ -132,7 +132,7 @@ class ViewController: UIViewController {
         case 6:
             sixRollView()
         default:
-            print("Something went wrong, try again frig u!.")
+            print("Something went wrong... Try aagain.")
         }
         
     }
