@@ -92,7 +92,7 @@ class ViewController: UIViewController {
 //        case 6:
             
         default:
-            print("Something went wrong, try again.")
+            print("Something went wrong, try again frig u!.")
         }
         
     }
@@ -104,13 +104,17 @@ class ViewController: UIViewController {
     }
     
     
+    //Func executed once the dice is tapped
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
+        //make randomDiceRoll a constant to use it as the argument in the viewSelector func.
         let rollNumber = randomDiceRoll()
         print(rollNumber)
+        //Based on the randomDiceRoll value the specific view will be selected to present
         viewSelector(number: rollNumber)
     
     }
     
    
-
 }
+
+
