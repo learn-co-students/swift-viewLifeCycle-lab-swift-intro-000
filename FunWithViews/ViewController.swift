@@ -94,7 +94,16 @@ class ViewController: UIViewController {
         middleRightView.isHidden = true
         bottomRightView.isHidden = false
     }
-    
+  
+    func fiveRollView() {
+        topLeftView.isHidden = false
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = false
+        middleView.isHidden = false
+        topRightView.isHidden = false
+        middleRightView.isHidden = true
+        bottomRightView.isHidden = false
+    }
     
     
     //Create a function which selects certain views to show based on the dice roll value.
