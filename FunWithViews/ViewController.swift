@@ -155,6 +155,9 @@ class ViewController: UIViewController {
     
     //Func executed once the dice is tapped
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
+        //We need to reset the view to be clear at every roll then populate it after
+        hideAllViews()
+        
         //make randomDiceRoll a constant to use it as the argument in the viewSelector func.
         let rollNumber = randomDiceRoll()
        
