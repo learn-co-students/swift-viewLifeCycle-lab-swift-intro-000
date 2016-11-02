@@ -60,53 +60,33 @@ class ViewController: UIViewController {
     //Create functions for each rolled number's view
     
     func oneRolledView() {
-        topLeftView.isHidden = true
-        middleLeftView.isHidden = true
-        bottomLeftView.isHidden = true
         middleView.isHidden = false
-        topRightView.isHidden = true
-        middleRightView.isHidden = true
-        bottomRightView.isHidden = true
     }
     
     func twoRolledView() {
         topLeftView.isHidden = false
-        middleLeftView.isHidden = true
-        bottomLeftView.isHidden = true
-        middleView.isHidden = true
-        topRightView.isHidden = true
-        middleRightView.isHidden = true
         bottomRightView.isHidden = false
         
     }
     
     func threeRollView() {
         topLeftView.isHidden = false
-        middleLeftView.isHidden = true
-        bottomLeftView.isHidden = true
         middleView.isHidden = false
-        topRightView.isHidden = true
-        middleRightView.isHidden = true
         bottomRightView.isHidden = false
     }
     
     func fourRollView() {
         topLeftView.isHidden = false
-        middleLeftView.isHidden = true
         bottomLeftView.isHidden = false
-        middleView.isHidden = true
         topRightView.isHidden = false
-        middleRightView.isHidden = true
         bottomRightView.isHidden = false
     }
   
     func fiveRollView() {
         topLeftView.isHidden = false
-        middleLeftView.isHidden = true
         bottomLeftView.isHidden = false
         middleView.isHidden = false
         topRightView.isHidden = false
-        middleRightView.isHidden = true
         bottomRightView.isHidden = false
     }
     
@@ -114,7 +94,6 @@ class ViewController: UIViewController {
         topLeftView.isHidden = false
         middleLeftView.isHidden = false
         bottomLeftView.isHidden = false
-        middleView.isHidden = true
         topRightView.isHidden = false
         middleRightView.isHidden = false
         bottomRightView.isHidden = false
