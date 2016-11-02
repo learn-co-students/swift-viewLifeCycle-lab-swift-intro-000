@@ -85,6 +85,15 @@ class ViewController: UIViewController {
         bottomRightView.isHidden = false
     }
     
+    func fourRollView() {
+        topLeftView.isHidden = false
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = false
+        middleView.isHidden = true
+        topRightView.isHidden = false
+        middleRightView.isHidden = true
+        bottomRightView.isHidden = false
+    }
     
     
     
