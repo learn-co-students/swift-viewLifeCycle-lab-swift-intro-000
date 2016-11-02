@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //The following are variables that can be used with in this class
     @IBOutlet weak var topLeftView: UIView!
     @IBOutlet weak var middleLeftView: UIView!
     @IBOutlet weak var bottomLeftView: UIView!
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel5: UILabel!
     @IBOutlet weak var scoreLabel6: UILabel!
     
-    func viewSetup() {
+    func hideAllViews() {
         topLeftView.isHidden = true
         middleLeftView.isHidden = true
         bottomLeftView.isHidden = true
@@ -33,6 +34,10 @@ class ViewController: UIViewController {
         topRightView.isHidden = true
         middleRightView.isHidden = true
         bottomRightView.isHidden = true
+    }
+    
+    func viewSetup() {
+  
         
         scoreLabel1.isHidden = true
         scoreLabel2.isHidden = true
@@ -143,14 +148,19 @@ class ViewController: UIViewController {
         return Int(arc4random_uniform(6) + 1)
     }
     
+    //Creates a func that makes the score label appear and put the score in it.
+    
+    
+    
     
     //Func executed once the dice is tapped
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         //make randomDiceRoll a constant to use it as the argument in the viewSelector func.
         let rollNumber = randomDiceRoll()
-        print(rollNumber)
+       
         //Based on the randomDiceRoll value the specific view will be selected to present
         viewSelector(number: rollNumber)
+        print(rollNumber)
     
     }
     
