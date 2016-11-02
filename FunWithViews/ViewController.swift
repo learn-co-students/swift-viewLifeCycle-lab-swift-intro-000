@@ -75,6 +75,18 @@ class ViewController: UIViewController {
         
     }
     
+    func threeRollView() {
+        topLeftView.isHidden = false
+        middleLeftView.isHidden = true
+        bottomLeftView.isHidden = true
+        middleView.isHidden = false
+        topRightView.isHidden = true
+        middleRightView.isHidden = true
+        bottomRightView.isHidden = false
+    }
+    
+    
+    
     
     //Create a function which selects certain views to show based on the dice roll value.
     func viewSelector(number: Int) {
