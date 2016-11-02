@@ -130,7 +130,7 @@ class ViewController: UIViewController {
         case 5:
             fiveRollView()
         case 6:
-            
+            sixRollView()
         default:
             print("Something went wrong, try again frig u!.")
         }
