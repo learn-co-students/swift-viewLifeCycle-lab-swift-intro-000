@@ -106,8 +106,8 @@ class ViewController: UIViewController {
             twoRolledView()
         case 3:
             threeRollView()
-//        case 4:
-//            
+        case 4:
+            fourRollView()
 //        case 5:
 //            
 //        case 6:
