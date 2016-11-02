@@ -127,8 +127,16 @@ class ViewController: UIViewController {
         return Int(arc4random_uniform(6) + 1)
     }
     
-    //Creates a func that makes the score label appear and put the score in it.
-    
+    //Creates a func that makes the score label appear and put the score in it. It takes the result of randomDiceRoll
+    func updateScoreLabel(num: Int) {
+        let diceRoll = String(num)
+        
+        if scoreLabel1.isHidden {
+            scoreLabel1.isHidden = false
+            scoreLabel1.text = diceRoll
+        }
+        
+    }
     
     
     
@@ -143,6 +151,9 @@ class ViewController: UIViewController {
         //Based on the randomDiceRoll value the specific view will be selected to present
         viewSelector(number: rollNumber)
         print(rollNumber)
+        
+        //this takes the randomDiceRoll value and makes it appear in the scoreLabel
+        updateScoreLabel(num: rollNumber)
     
     }
     
