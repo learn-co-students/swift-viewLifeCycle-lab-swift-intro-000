@@ -133,9 +133,26 @@ class ViewController: UIViewController {
         if scoreLabel1.isHidden {
             scoreLabel1.isHidden = false
             scoreLabel1.text = diceRoll
+        } else if scoreLabel2.isHidden {
+            scoreLabel2.isHidden = false
+            scoreLabel2.text = diceRoll
+        } else if scoreLabel3.isHidden {
+            scoreLabel3.isHidden = false
+            scoreLabel3.text = diceRoll
+        } else if scoreLabel4.isHidden {
+            scoreLabel4.isHidden = false
+            scoreLabel4.text = diceRoll
+        } else if scoreLabel5.isHidden {
+            scoreLabel5.isHidden = false
+            scoreLabel5.text = diceRoll
+        }else if scoreLabel6.isHidden {
+            scoreLabel6.isHidden = false
+            scoreLabel6.text = diceRoll
+            }
         }
-        
-    }
+    
+    
+    
     
     
     
