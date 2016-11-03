@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     //The following are variables that can be used with in this class
+    var count = 0
+    
     @IBOutlet weak var topLeftView: UIView!
     @IBOutlet weak var middleLeftView: UIView!
     @IBOutlet weak var bottomLeftView: UIView!
@@ -149,28 +151,36 @@ class ViewController: UIViewController {
             scoreLabel6.isHidden = false
             scoreLabel6.text = diceRoll
             }
-        }
+    }
     
     
-    
-    
-    
+    //Create a counter func that knows when the button has been pressed six times so you can reset the labels to being is.Hidden = true
+    func counter() {
+        count += 1
+    }
     
     //Func executed once the dice is tapped
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         //We need to reset the view to be clear at every roll then populate it after
         hideAllViews()
         
+        //counter
+        counter()
+        
         //make randomDiceRoll a constant to use it as the argument in the viewSelector func.
         let rollNumber = randomDiceRoll()
        
-        //Based on the randomDiceRoll value the specific view will be selected to present
-        viewSelector(number: rollNumber)
-        print(rollNumber)
-        
-        //this takes the randomDiceRoll value and makes it appear in the scoreLabel
-        updateScoreLabel(num: rollNumber)
-    
+//        if count < 6 {
+//        
+//        //Based on the randomDiceRoll value the specific view will be selected to present
+//            viewSelector(number: rollNumber)
+//        
+//        //this takes the randomDiceRoll value and makes it appear in the scoreLabel
+//            updateScoreLabel(num: rollNumber)
+//        } else {
+//            viewSetup()
+//        }
+//    
     }
     
    
