@@ -130,8 +130,6 @@ class ViewController: UIViewController {
     //Creates a func that makes the score label appear and put the score in it. It takes the result of randomDiceRoll
     func updateScoreLabel(num: Int) {
         let diceRoll = String(num)
-        
-        //if statement that makes labels apprear if they are hidden and changes the value
         if scoreLabel1.isHidden {
             scoreLabel1.isHidden = false
             scoreLabel1.text = diceRoll
