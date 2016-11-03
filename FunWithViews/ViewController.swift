@@ -131,6 +131,7 @@ class ViewController: UIViewController {
     func updateScoreLabel(num: Int) {
         let diceRoll = String(num)
         
+        //if statement that makes labels apprear if they are hidden and changes the value
         if scoreLabel1.isHidden {
             scoreLabel1.isHidden = false
             scoreLabel1.text = diceRoll
