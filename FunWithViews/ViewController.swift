@@ -170,17 +170,18 @@ class ViewController: UIViewController {
         //make randomDiceRoll a constant to use it as the argument in the viewSelector func.
         let rollNumber = randomDiceRoll()
        
-//        if count < 6 {
-//        
-//        //Based on the randomDiceRoll value the specific view will be selected to present
-//            viewSelector(number: rollNumber)
-//        
-//        //this takes the randomDiceRoll value and makes it appear in the scoreLabel
-//            updateScoreLabel(num: rollNumber)
-//        } else {
-//            viewSetup()
-//        }
-//    
+        if count <= 6 {
+        
+        //Based on the randomDiceRoll value the specific view will be selected to present
+            viewSelector(number: rollNumber)
+        
+        //this takes the randomDiceRoll value and makes it appear in the scoreLabel
+            updateScoreLabel(num: rollNumber)
+        } else {
+            viewSetup()
+            count = 0
+        }
+    
     }
     
    
