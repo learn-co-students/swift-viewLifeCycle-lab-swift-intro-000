@@ -27,41 +27,6 @@
                                     <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6UI-XO-qkS"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" id="gFb-nU-VOp">
-                                <frame key="frameInset" minX="16" minY="30" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="oAy-PI-8hx">
-                                <frame key="frameInset" minX="259" minY="30" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="Ryx-Jl-8ux">
-                                <frame key="frameInset" minX="16" minY="264" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="M1f-L7-MUf">
-                                <frame key="frameInset" minX="16" minY="147" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="7ib-QJ-jMv">
-                                <frame key="frameInset" minX="137" minY="147" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="ae9-Hf-6XJ">
-                                <frame key="frameInset" minX="259" minY="147" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="T0S-uk-Yuz">
-                                <frame key="frameInset" minX="259" minY="264" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5r2-LK-VGG">
                                 <frame key="frameInset" minX="47" minY="434" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,13 +115,6 @@
                     </view>
                     <connections>
                         <outlet property="animation" destination="TcA-2B-jS9" id="beK-f6-niH"/>
-                        <outlet property="die_1" destination="gFb-nU-VOp" id="T5F-8h-IyR"/>
-                        <outlet property="die_2" destination="oAy-PI-8hx" id="U2X-FA-f4T"/>
-                        <outlet property="die_3" destination="M1f-L7-MUf" id="8P4-ik-GJU"/>
-                        <outlet property="die_4" destination="7ib-QJ-jMv" id="8bW-xG-yBZ"/>
-                        <outlet property="die_5" destination="ae9-Hf-6XJ" id="N1o-je-OrH"/>
-                        <outlet property="die_6" destination="Ryx-Jl-8ux" id="Hua-gC-pww"/>
-                        <outlet property="die_7" destination="T0S-uk-Yuz" id="z2G-MP-485"/>
                         <outlet property="die__1" destination="LdT-dc-vWF" id="kSZ-xj-uTF"/>
                         <outlet property="die__2" destination="PR9-pC-5gz" id="kJ7-Lo-1Rt"/>
                         <outlet property="die__3" destination="65Y-nA-uR5" id="GOI-EC-zYQ"/>

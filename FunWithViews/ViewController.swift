@@ -14,14 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //Hide dice tiles and score labels
-        die_1.isHidden = true
-        die_2.isHidden = true
-        die_3.isHidden = true
-        die_4.isHidden = true
-        die_5.isHidden = true
-        die_6.isHidden = true
-        die_7.isHidden = true
-        
         die__1.isHidden = true
         die__2.isHidden = true
         die__3.isHidden = true
@@ -41,22 +33,8 @@ class ViewController: UIViewController {
     }
     
     //Hook up dice tiles and score labels
-    @IBOutlet weak var die_1: UIView!
-    
-    @IBOutlet weak var die_2: UIView!
-    
-    @IBOutlet weak var die_3: UIView!
-    
-    @IBOutlet weak var die_4: UIView!
-    
-    @IBOutlet weak var die_5: UIView!
-    
-    @IBOutlet weak var die_6: UIView!
-    
-    @IBOutlet weak var die_7: UIView!
-    
-    
     @IBOutlet weak var animation: UIImageView!
+    
     
     @IBOutlet weak var die__1: UIImageView!
     
@@ -98,37 +76,16 @@ class ViewController: UIViewController {
         
     }
     
+    
     //Show relevant dice tiles
     func showDiceTiles(roll: Int) {
         
         let diceScore = Int(roll)
         
-        let imagesListArray: NSMutableArray = ["die_1.png","die_2.png","die_3.png","die_4.png","die_5.png","die_6.png"]
-
-        for position in 1...5
-        {
-            let strImageName : String = String("die_\(position).png")
-            let image  = UIImage(named:strImageName)
-            imagesListArray.add(image)
-            print(strImageName)
-        }
-        
-        //self.animation.animationImages = imagesListArray;
-        //self.animation.animationDuration = 1.0
-        //self.animation.startAnimating()
-        
         nattyMessage.isHidden = true
         
         switch diceScore {
             case 1:
-                die_1.isHidden = true
-                die_2.isHidden = true
-                die_3.isHidden = true
-                die_4.isHidden = false
-                die_5.isHidden = true
-                die_6.isHidden = true
-                die_7.isHidden = true
-            
                 die__1.isHidden = false
                 die__2.isHidden = true
                 die__3.isHidden = true
@@ -137,14 +94,6 @@ class ViewController: UIViewController {
                 die__6.isHidden = true
             
             case 2:
-                die_1.isHidden = false
-                die_2.isHidden = true
-                die_3.isHidden = true
-                die_4.isHidden = true
-                die_5.isHidden = true
-                die_6.isHidden = true
-                die_7.isHidden = false
-            
                 die__1.isHidden = true
                 die__2.isHidden = false
                 die__3.isHidden = true
@@ -153,14 +102,6 @@ class ViewController: UIViewController {
                 die__6.isHidden = true
             
             case 3:
-                die_1.isHidden = false
-                die_2.isHidden = true
-                die_3.isHidden = true
-                die_4.isHidden = false
-                die_5.isHidden = true
-                die_6.isHidden = true
-                die_7.isHidden = false
-            
                 die__1.isHidden = true
                 die__2.isHidden = true
                 die__3.isHidden = false
@@ -169,14 +110,6 @@ class ViewController: UIViewController {
                 die__6.isHidden = true
             
             case 4:
-                die_1.isHidden = false
-                die_2.isHidden = false
-                die_3.isHidden = true
-                die_4.isHidden = true
-                die_5.isHidden = true
-                die_6.isHidden = false
-                die_7.isHidden = false
-            
                 die__1.isHidden = true
                 die__2.isHidden = true
                 die__3.isHidden = true
@@ -185,14 +118,6 @@ class ViewController: UIViewController {
                 die__6.isHidden = true
             
             case 5:
-                die_1.isHidden = false
-                die_2.isHidden = false
-                die_3.isHidden = true
-                die_4.isHidden = false
-                die_5.isHidden = true
-                die_6.isHidden = false
-                die_7.isHidden = false
-            
                 die__1.isHidden = true
                 die__2.isHidden = true
                 die__3.isHidden = true
@@ -201,14 +126,6 @@ class ViewController: UIViewController {
                 die__6.isHidden = true
             
             default:
-                die_1.isHidden = false
-                die_2.isHidden = false
-                die_3.isHidden = false
-                die_4.isHidden = true
-                die_5.isHidden = false
-                die_6.isHidden = false
-                die_7.isHidden = false
-                
                 die__1.isHidden = true
                 die__2.isHidden = true
                 die__3.isHidden = true

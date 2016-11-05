@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111028E51DCD66CB0024A2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111028E41DCD66CB0024A2DF /* Assets.xcassets */; };
 		5BF781AD1CFF537A005ECF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */; };
 		5BF781B21CFF537A005ECF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF781B01CFF537A005ECF6E /* Main.storyboard */; };
-		5BF781B41CFF537A005ECF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF781B31CFF537A005ECF6E /* Assets.xcassets */; };
 		5BF781B71CFF537A005ECF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF781B51CFF537A005ECF6E /* LaunchScreen.storyboard */; };
 		7D139A5C1D8E12F600F92686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D139A5B1D8E12F600F92686 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111028E41DCD66CB0024A2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		5BF781A91CFF537A005ECF6E /* FunWithViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF781B11CFF537A005ECF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BF781B31CFF537A005ECF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF781B61CFF537A005ECF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF781B81CFF537A005ECF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D139A5B1D8E12F600F92686 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +40,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		111028D51DCD5D310024A2DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5BF781A01CFF537A005ECF6E = {
@@ -65,7 +73,8 @@
 				7D139A5B1D8E12F600F92686 /* ViewController.swift */,
 				5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */,
 				5BF781B01CFF537A005ECF6E /* Main.storyboard */,
-				5BF781B31CFF537A005ECF6E /* Assets.xcassets */,
+				111028E41DCD66CB0024A2DF /* Assets.xcassets */,
+				111028D51DCD5D310024A2DF /* Supporting Files */,
 				5BF781B51CFF537A005ECF6E /* LaunchScreen.storyboard */,
 				5BF781B81CFF537A005ECF6E /* Info.plist */,
 			);
@@ -99,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					5BF781A81CFF537A005ECF6E = {
@@ -133,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF781B71CFF537A005ECF6E /* LaunchScreen.storyboard in Resources */,
-				5BF781B41CFF537A005ECF6E /* Assets.xcassets in Resources */,
+				111028E51DCD66CB0024A2DF /* Assets.xcassets in Resources */,
 				5BF781B21CFF537A005ECF6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,8 +195,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -231,8 +242,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -251,6 +264,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
