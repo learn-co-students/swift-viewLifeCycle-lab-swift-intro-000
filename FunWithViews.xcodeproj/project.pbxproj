@@ -62,8 +62,8 @@
 		5BF781AB1CFF537A005ECF6E /* FunWithViews */ = {
 			isa = PBXGroup;
 			children = (
-				7D139A5B1D8E12F600F92686 /* ViewController.swift */,
 				5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */,
+				7D139A5B1D8E12F600F92686 /* ViewController.swift */,
 				5BF781B01CFF537A005ECF6E /* Main.storyboard */,
 				5BF781B31CFF537A005ECF6E /* Assets.xcassets */,
 				5BF781B51CFF537A005ECF6E /* LaunchScreen.storyboard */,
