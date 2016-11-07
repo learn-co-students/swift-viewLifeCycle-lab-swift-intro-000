@@ -30,8 +30,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //func for EZ reset of di face to hidden so each roll gets fresh start
         resetDiFace()
         
+        //hide labels no func since only used once
         labelRoll00.isHidden = true
         labelRoll01.isHidden = true
         labelRoll02.isHidden = true
@@ -120,7 +123,7 @@ class ViewController: UIViewController {
 
         }
     }
-    
+    //func for EZ reset of di face to hidden
     func resetDiFace(){
         diOutlet00.isHidden = true
         diOutlet01.isHidden = true
