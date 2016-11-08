@@ -14,7 +14,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="felt" id="X65-4u-uwh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="felt.png" id="X65-4u-uwh">
                                 <frame key="frameInset" minY="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -82,27 +82,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_1" id="LdT-dc-vWF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_1.png" id="LdT-dc-vWF">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_2" id="PR9-pC-5gz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_2.png" id="PR9-pC-5gz">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_3" id="65Y-nA-uR5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_3.png" id="65Y-nA-uR5">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_4" id="eSr-Ik-cQ5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_4.png" id="eSr-Ik-cQ5">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_5" id="HB5-Fj-Mn4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_5.png" id="HB5-Fj-Mn4">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_6" id="YdD-j5-SBK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="die_6.png" id="YdD-j5-SBK">
                                 <frame key="frameInset" minX="67" minY="77" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -136,13 +136,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="die_1" width="437" height="438"/>
-        <image name="die_2" width="437" height="438"/>
-        <image name="die_3" width="437" height="438"/>
-        <image name="die_4" width="437" height="438"/>
-        <image name="die_5" width="437" height="438"/>
-        <image name="die_6" width="437" height="438"/>
-        <image name="felt" width="1080" height="1920"/>
+        <image name="die_1.png" width="240" height="240"/>
+        <image name="die_2.png" width="240" height="240"/>
+        <image name="die_3.png" width="240" height="240"/>
+        <image name="die_4.png" width="240" height="240"/>
+        <image name="die_5.png" width="240" height="240"/>
+        <image name="die_6.png" width="240" height="240"/>
+        <image name="felt.png" width="375" height="647"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

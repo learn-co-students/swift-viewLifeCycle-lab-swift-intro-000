@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111028E51DCD66CB0024A2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111028E41DCD66CB0024A2DF /* Assets.xcassets */; };
+		118775B41DD2598300351536 /* die_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775AE1DD2598300351536 /* die_1.png */; };
+		118775B51DD2598300351536 /* die_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775AF1DD2598300351536 /* die_2.png */; };
+		118775B61DD2598300351536 /* die_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775B01DD2598300351536 /* die_3.png */; };
+		118775B71DD2598300351536 /* die_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775B11DD2598300351536 /* die_4.png */; };
+		118775B81DD2598300351536 /* die_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775B21DD2598300351536 /* die_5.png */; };
+		118775B91DD2598300351536 /* die_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775B31DD2598300351536 /* die_6.png */; };
+		118775BB1DD25A2700351536 /* felt.png in Resources */ = {isa = PBXBuildFile; fileRef = 118775BA1DD25A2700351536 /* felt.png */; };
 		5BF781AD1CFF537A005ECF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */; };
 		5BF781B21CFF537A005ECF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF781B01CFF537A005ECF6E /* Main.storyboard */; };
 		5BF781B71CFF537A005ECF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF781B51CFF537A005ECF6E /* LaunchScreen.storyboard */; };
@@ -15,7 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		111028E41DCD66CB0024A2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		118775AE1DD2598300351536 /* die_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_1.png; sourceTree = "<group>"; };
+		118775AF1DD2598300351536 /* die_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_2.png; sourceTree = "<group>"; };
+		118775B01DD2598300351536 /* die_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_3.png; sourceTree = "<group>"; };
+		118775B11DD2598300351536 /* die_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_4.png; sourceTree = "<group>"; };
+		118775B21DD2598300351536 /* die_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_5.png; sourceTree = "<group>"; };
+		118775B31DD2598300351536 /* die_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = die_6.png; sourceTree = "<group>"; };
+		118775BA1DD25A2700351536 /* felt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felt.png; sourceTree = "<group>"; };
 		5BF781A91CFF537A005ECF6E /* FunWithViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF781B11CFF537A005ECF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +57,13 @@
 		111028D51DCD5D310024A2DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				118775BA1DD25A2700351536 /* felt.png */,
+				118775AE1DD2598300351536 /* die_1.png */,
+				118775AF1DD2598300351536 /* die_2.png */,
+				118775B01DD2598300351536 /* die_3.png */,
+				118775B11DD2598300351536 /* die_4.png */,
+				118775B21DD2598300351536 /* die_5.png */,
+				118775B31DD2598300351536 /* die_6.png */,
 			);
 			name = "Supporting Files";
 			path = ..;
@@ -73,7 +92,6 @@
 				7D139A5B1D8E12F600F92686 /* ViewController.swift */,
 				5BF781AC1CFF537A005ECF6E /* AppDelegate.swift */,
 				5BF781B01CFF537A005ECF6E /* Main.storyboard */,
-				111028E41DCD66CB0024A2DF /* Assets.xcassets */,
 				111028D51DCD5D310024A2DF /* Supporting Files */,
 				5BF781B51CFF537A005ECF6E /* LaunchScreen.storyboard */,
 				5BF781B81CFF537A005ECF6E /* Info.plist */,
@@ -141,9 +159,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118775B81DD2598300351536 /* die_5.png in Resources */,
+				118775B61DD2598300351536 /* die_3.png in Resources */,
+				118775BB1DD25A2700351536 /* felt.png in Resources */,
+				118775B71DD2598300351536 /* die_4.png in Resources */,
+				118775B91DD2598300351536 /* die_6.png in Resources */,
 				5BF781B71CFF537A005ECF6E /* LaunchScreen.storyboard in Resources */,
-				111028E51DCD66CB0024A2DF /* Assets.xcassets in Resources */,
+				118775B41DD2598300351536 /* die_1.png in Resources */,
 				5BF781B21CFF537A005ECF6E /* Main.storyboard in Resources */,
+				118775B51DD2598300351536 /* die_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
