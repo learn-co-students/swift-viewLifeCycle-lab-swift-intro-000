@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func dieButtonTapped(_ sender: AnyObject) {
+    @IBAction func dieButtonTapped(sender: AnyObject) {
         
         
     }
