@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,8 +17,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="19e-us-hHV">
+                                <rect key="frame" x="41" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DVc-PN-GXz">
+                                <rect key="frame" x="91" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4El-DH-ER5">
+                                <rect key="frame" x="141" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FJg-R8-4b3">
+                                <rect key="frame" x="191" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tT1-Nn-bLL">
+                                <rect key="frame" x="241" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BvJ-Q6-T1R">
+                                <rect key="frame" x="291" y="439" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KJ2-o6-dr5">
-                                <frame key="frameInset" minX="153" minY="450" width="68" height="59"/>
+                                <rect key="frame" x="153" y="525" width="68" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="🎲"/>
@@ -23,13 +74,63 @@
                                     <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="m8H-se-YUU">
+                                <rect key="frame" x="16" y="46" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="oNw-W1-kE2">
+                                <rect key="frame" x="279" y="46" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="Cej-7h-UPn">
+                                <rect key="frame" x="16" y="149" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="PW4-Aa-TGC">
+                                <rect key="frame" x="16" y="256" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="pc3-em-72n">
+                                <rect key="frame" x="279" y="149" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="KHP-uv-6d2">
+                                <rect key="frame" x="279" y="256" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="X1l-WW-3Y9">
+                                <rect key="frame" x="147" y="149" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="CellL1" destination="m8H-se-YUU" id="zoE-d3-UtA"/>
+                        <outlet property="CellL2" destination="Cej-7h-UPn" id="zRl-pj-8ox"/>
+                        <outlet property="CellL3" destination="PW4-Aa-TGC" id="VAz-vI-7pz"/>
+                        <outlet property="CellM" destination="X1l-WW-3Y9" id="xAb-tL-uRh"/>
+                        <outlet property="CellR1" destination="oNw-W1-kE2" id="Hpd-bF-8yP"/>
+                        <outlet property="CellR2" destination="pc3-em-72n" id="LsQ-tg-UGd"/>
+                        <outlet property="CellR3" destination="KHP-uv-6d2" id="vx8-zu-vFr"/>
+                        <outlet property="LabelFive" destination="tT1-Nn-bLL" id="yEk-9l-WcU"/>
+                        <outlet property="LabelFour" destination="FJg-R8-4b3" id="uvM-dn-Yfr"/>
+                        <outlet property="LabelOne" destination="19e-us-hHV" id="EZ6-Ci-q1K"/>
+                        <outlet property="LabelSix" destination="BvJ-Q6-T1R" id="ljg-hu-lLg"/>
+                        <outlet property="LabelThree" destination="4El-DH-ER5" id="Ya9-kW-MQG"/>
+                        <outlet property="LabelTwo" destination="DVc-PN-GXz" id="xFT-Az-gCC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.5" y="113.5"/>
+            <point key="canvasLocation" x="-108" y="138"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
