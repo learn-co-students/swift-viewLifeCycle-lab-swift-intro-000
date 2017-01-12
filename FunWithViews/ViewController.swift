@@ -1,14 +1,14 @@
- // 
-// ViewController.swift
-// FunWithViews 
-//
-// Created by Jim  Campagno on 9/17/16.
-// Copyright @ 2016 Flatiron School. All rights reserved 
-//
-
-import UIKit
-
-class ViewController: UIViewController {
+ //
+ // ViewController.swift
+ // FunWithViews
+ //
+ // Created by Jim  Campagno on 9/17/16.
+ // Copyright @ 2016 Flatiron School. All rights reserved
+ //
+ 
+ import UIKit
+ 
+ class ViewController: UIViewController {
     
     @IBOutlet weak var G: UIView!
     @IBOutlet weak var F: UIView!
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Four: UILabel!
     @IBOutlet weak var Five: UILabel!
     @IBOutlet weak var Six: UILabel!
-   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,19 +41,20 @@ class ViewController: UIViewController {
         Four.isHidden = true
         Five.isHidden = true
         Six.isHidden = true
-}
+    }
     
-
+    
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         var diceRoll: Int
         diceRoll = randomDiceRoll()
-        
         updateLabelWithRoll(roll: diceRoll)
         showDi(diValue: diceRoll)
-        }
+    }
+    
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
     }
+    
     func resetDiFace(){
         A.isHidden = true
         B.isHidden = true
@@ -63,59 +64,64 @@ class ViewController: UIViewController {
         F.isHidden = true
         G.isHidden = true
     }
-     func updateLabelWithRoll(roll: Int) {
+    
+    func updateLabelWithRoll(roll: Int) {
         let diceScore = String(roll)
-            if One.isHidden {
-                One.text = diceScore
-                One.isHidden = false
-            } else if Two.isHidden {
-                Two.text = diceScore
-                Two.isHidden = false
-            } else if Three.isHidden {
-                Three.text = diceScore
-                Three.isHidden = false
-            } else if Four.isHidden {
-                Four.text = diceScore
-                Four.isHidden = false
-            } else if Five.isHidden {
-                Five.text = diceScore
-                Five.isHidden = false
-            } else if Six.isHidden {
-                Six.text = diceScore
-                Six.isHidden = false
-}
-        func showDi(diValue: Int) {
-            resetDiFace()
-            
-            switch true {
-            case diValue == 1:
+        if One.isHidden {
+            One.text = diceScore
+            One.isHidden = false
+        } else if Two.isHidden {
+            Two.text = diceScore
+            Two.isHidden = false
+        } else if Three.isHidden {
+            Three.text = diceScore
+            Three.isHidden = false
+        } else if Four.isHidden {
+            Four.text = diceScore
+            Four.isHidden = false
+        } else if Five.isHidden {
+            Five.text = diceScore
+            Five.isHidden = false
+        } else if Six.isHidden {
+            Six.text = diceScore
+            Six.isHidden = false
+        }
+    }
+    
+    
+    func showDi(diValue: Int) {
+        resetDiFace()
+        
+        switch true {
+        case diValue == 1:
             A.isHidden = false
-            case diValue == 2:
+        case diValue == 2:
             A.isHidden = false
             B.isHidden = false
-            case diValue == 3:
+        case diValue == 3:
             A.isHidden = false
             B.isHidden = false
             C.isHidden = false
-            case diValue == 4:
+        case diValue == 4:
             A.isHidden = false
             B.isHidden = false
             C.isHidden = false
             D.isHidden = false
-            case diValue == 5:
+        case diValue == 5:
             A.isHidden = false
             B.isHidden = false
             C.isHidden = false
             D.isHidden = false
             E.isHidden = false
-            case diValue == 6:
+        case diValue == 6:
             A.isHidden = false
             B.isHidden = false
             C.isHidden = false
             D.isHidden = false
             E.isHidden = false
             G.isHidden = false
-            default:
+        default:
             resetDiFace()
+        }
     }
-}
+ }
