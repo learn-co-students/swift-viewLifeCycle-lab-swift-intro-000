@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,18 +35,8 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="WmG-y5-I8F">
-                                        <rect key="frame" x="267" y="317" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
                                     <view contentMode="scaleToFill" misplaced="YES" id="VFy-Nz-H6J">
                                         <rect key="frame" x="275" y="0.0" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="f8I-bh-RB4">
-                                        <rect key="frame" x="0.0" y="162" width="100" height="101"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -60,16 +50,19 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="TMH-Aa-jiH">
-                                        <rect key="frame" x="0.0" y="317" width="100" height="100"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="3Et-qd-eJa">
+                                        <rect key="frame" x="0.0" y="324" width="100" height="101"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="dlm-nd-6PL">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            </view>
-                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="f8I-bh-RB4">
+                                        <rect key="frame" x="0.0" y="162" width="100" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="WmG-y5-I8F">
+                                        <rect key="frame" x="275" y="325" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
@@ -128,19 +121,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="aH3-wH-zBw"/>
                     <connections>
-                        <outlet property="A" destination="mxL-SO-K3r" id="ZXE-tp-uMM"/>
-                        <outlet property="B" destination="VFy-Nz-H6J" id="8L4-2s-PmU"/>
-                        <outlet property="C" destination="8ue-Gk-S1O" id="bWA-q5-n2Z"/>
-                        <outlet property="D" destination="WmG-y5-I8F" id="psT-u5-XxO"/>
-                        <outlet property="E" destination="dlm-nd-6PL" id="dps-Ks-wZA"/>
-                        <outlet property="F" destination="f8I-bh-RB4" id="Dtc-ft-N3G"/>
-                        <outlet property="Five" destination="Y7y-Z8-w6V" id="Fpj-74-ZIl"/>
-                        <outlet property="Four" destination="HzD-Go-XPj" id="N7z-il-b57"/>
-                        <outlet property="G" destination="ziY-np-QRK" id="OJj-jn-h9J"/>
-                        <outlet property="One" destination="aY8-F8-Hz9" id="6Ek-qu-wT6"/>
-                        <outlet property="Six" destination="33l-71-NVA" id="jZF-mV-XgK"/>
-                        <outlet property="Three" destination="sRd-xd-bMo" id="8b0-Zs-xDI"/>
-                        <outlet property="Two" destination="3rC-zq-K9O" id="8kX-Mz-c6r"/>
+                        <outlet property="darkBlueLabel" destination="aY8-F8-Hz9" id="YJJ-sA-s6A"/>
+                        <outlet property="greenLabel" destination="3rC-zq-K9O" id="JYG-Ge-gy6"/>
+                        <outlet property="lightBlueLabel" destination="33l-71-NVA" id="gJ0-No-gwr"/>
+                        <outlet property="lowerLeft" destination="3Et-qd-eJa" id="yZ9-5w-2TK"/>
+                        <outlet property="lowerRight" destination="WmG-y5-I8F" id="za6-wA-VBf"/>
+                        <outlet property="middleLeft" destination="f8I-bh-RB4" id="PYV-qm-CQ8"/>
+                        <outlet property="middleRight" destination="8ue-Gk-S1O" id="iaW-4z-h8Y"/>
+                        <outlet property="middleSquare" destination="mxL-SO-K3r" id="GlF-v4-b6a"/>
+                        <outlet property="pinkLabel" destination="sRd-xd-bMo" id="ySF-TC-Wiu"/>
+                        <outlet property="redLabel" destination="HzD-Go-XPj" id="4ps-oh-qgw"/>
+                        <outlet property="upperLeft" destination="ziY-np-QRK" id="l5v-Q1-laz"/>
+                        <outlet property="upperRight" destination="VFy-Nz-H6J" id="LOs-pc-YbS"/>
+                        <outlet property="yellowLabel" destination="Y7y-Z8-w6V" id="JMY-qN-vXZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
