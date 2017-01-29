@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         updateLabel()
+        rearrangeBoxes()
         
     }
     
@@ -55,7 +56,22 @@ class ViewController: UIViewController {
         } else if result2.isHidden {
             result2.text = String(randomDiceRoll())
             result2.isHidden = false
+        } else if result3.isHidden {
+            result3.text = String(randomDiceRoll())
+            result3.isHidden = false
+        } else if result4.isHidden {
+            result4.text = String(randomDiceRoll())
+            result4.isHidden = false
         }
+    }
+    func rearrangeBoxes() {
+        if randomDiceRoll() == 1 {
+           box4.isHidden = false
+        } else if randomDiceRoll() == 2 {
+            box2.isHidden = false
+            box6.isHidden = false
+        } 
     }
 
 }
+
