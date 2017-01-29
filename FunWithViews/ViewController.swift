@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         updateLabel()
-        rearrangeBoxes()
+        rearrangeBoxes1()
         
     }
     
@@ -62,15 +62,37 @@ class ViewController: UIViewController {
         } else if result4.isHidden {
             result4.text = String(randomDiceRoll())
             result4.isHidden = false
+        } else if result5.isHidden {
+            result5.text = String(randomDiceRoll())
+            result5.isHidden = false
+        } else if result6.isHidden {
+            result6.text = String(randomDiceRoll())
+            result6.isHidden = false
         }
     }
-    func rearrangeBoxes() {
-        if randomDiceRoll() == 1 {
+   
+    func rearrangeBoxes1() {
+        if result1.text == String(1) {
            box4.isHidden = false
-        } else if randomDiceRoll() == 2 {
+        } else if result1.text == String(2) {
             box2.isHidden = false
             box6.isHidden = false
-        } 
+        } else if result1.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result1.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result1.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        }
     }
 
 }
