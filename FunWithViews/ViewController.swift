@@ -28,12 +28,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+            for results in [result1, result2, result3, result4, result5, result6] {
+            results?.isHidden = true
+            }
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+            boxes?.isHidden = true
+            }
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         updateLabel()
-        rearrangeBoxes1()
-        
+
     }
     
 //    for boxes in [box1, box2, box3, box4, box5, box6, box7] {
@@ -53,21 +58,42 @@ class ViewController: UIViewController {
         if result1.isHidden {
             result1.text = String(randomDiceRoll())
             result1.isHidden = false
+            rearrangeBoxes1()
         } else if result2.isHidden {
             result2.text = String(randomDiceRoll())
             result2.isHidden = false
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+                boxes?.isHidden = true
+            }
+            rearrangeBoxes2()
         } else if result3.isHidden {
             result3.text = String(randomDiceRoll())
             result3.isHidden = false
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+                boxes?.isHidden = true
+            }
+            rearrangeBoxes3()
         } else if result4.isHidden {
             result4.text = String(randomDiceRoll())
             result4.isHidden = false
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+                boxes?.isHidden = true
+            }
+            rearrangeBoxes4()
         } else if result5.isHidden {
             result5.text = String(randomDiceRoll())
             result5.isHidden = false
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+                boxes?.isHidden = true
+            }
+            rearrangeBoxes5()
         } else if result6.isHidden {
             result6.text = String(randomDiceRoll())
             result6.isHidden = false
+            for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+                boxes?.isHidden = true
+            }
+            rearrangeBoxes6()
         }
     }
    
@@ -92,8 +118,171 @@ class ViewController: UIViewController {
             box5.isHidden = false
             box7.isHidden = false
             box4.isHidden = false
+        } else if result1.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
         }
     }
+    
+    func rearrangeBoxes2() {
+        if result2.text == String(1) {
+            box4.isHidden = false
+        } else if result2.text == String(2) {
+            box2.isHidden = false
+            box6.isHidden = false
+        } else if result2.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result2.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result2.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        } else if result2.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
+        }
+    }
+    
+    func rearrangeBoxes3() {
+        if result3.text == String(1) {
+            box4.isHidden = false
+        } else if result3.text == String(2) {
+            box2.isHidden = false
+            box6.isHidden = false
+        } else if result3.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result3.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result3.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        } else if result3.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
+        }
+    }
+    
+    func rearrangeBoxes4() {
+        if result4.text == String(1) {
+            box4.isHidden = false
+        } else if result4.text == String(2) {
+            box2.isHidden = false
+            box6.isHidden = false
+        } else if result4.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result4.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result4.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        } else if result4.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
+        }
+    }
+    
+    func rearrangeBoxes5() {
+        if result5.text == String(1) {
+            box4.isHidden = false
+        } else if result5.text == String(2) {
+            box2.isHidden = false
+            box6.isHidden = false
+        } else if result5.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result5.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result5.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        } else if result5.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
+        }
+    }
+    
+    func rearrangeBoxes6() {
+        if result6.text == String(1) {
+            box4.isHidden = false
+        } else if result6.text == String(2) {
+            box2.isHidden = false
+            box6.isHidden = false
+        } else if result6.text == String(3) {
+            box3.isHidden = false
+            box4.isHidden = false
+            box5.isHidden = false
+        } else if result6.text == String(4) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+        } else if result6.text == String(5) {
+            box1.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box7.isHidden = false
+            box4.isHidden = false
+        } else if result6.text == String(6) {
+            box1.isHidden = false
+            box2.isHidden = false
+            box3.isHidden = false
+            box5.isHidden = false
+            box6.isHidden = false
+            box7.isHidden = false
+        }
+    }
+
 
 }
 
