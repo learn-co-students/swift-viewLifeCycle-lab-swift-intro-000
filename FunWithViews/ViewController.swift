@@ -31,22 +31,30 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-        _ = randomDiceRoll()
-    
+        updateLabel()
         
     }
+    
+//    for boxes in [box1, box2, box3, box4, box5, box6, box7] {
+//    boxes?.isHidden = true
+//    }
+//    
+//    for results in [result1, result2, result3, result4, result5, result6] {
+//    results?.isHidden = true
+//    }
     
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
     }
-    
-    func updateResultWithRoll(roll: Int) {
-        let diceScore = String(roll)
-        
+
+    func updateLabel() {
         if result1.isHidden {
-            result1.text = diceScore
+            result1.text = String(randomDiceRoll())
             result1.isHidden = false
+        } else if result2.isHidden {
+            result2.text = String(randomDiceRoll())
+            result2.isHidden = false
         }
     }
 
