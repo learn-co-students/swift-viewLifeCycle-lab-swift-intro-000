@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunWithViews/ViewController.swift"
+            timestampString = "514671559.954861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.viewFive.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.323303"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.viewFive.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.326079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FunWithViews.ViewController"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.329874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "717">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FunWithViews.ViewController&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.33351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "631">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunWithViews/ViewController.swift"
+            timestampString = "514671559.954861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunWithViews/ViewController.swift"
+            timestampString = "514671559.954861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunWithViews/ViewController.swift"
+            timestampString = "514671559.954861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.viewTwo.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.341304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.viewTwo.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.344538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FunWithViews.ViewController"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.347512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithViews.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FunWithViews.ViewController&gt;"
+                  moduleName = "FunWithViews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonymida/Desktop/swift-viewLifeCycle-lab-swift-intro-000/FunWithViews/ViewController.swift"
+                  timestampString = "514668695.350108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "454">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
