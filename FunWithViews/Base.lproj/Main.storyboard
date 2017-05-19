@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,21 +18,102 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KJ2-o6-dr5">
-                                <frame key="frameInset" minX="153" minY="450" width="68" height="59"/>
+                                <rect key="frame" x="153" y="450" width="68" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="🎲"/>
                                 <connections>
-                                    <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
+                                    <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bug-Vw-e5Z"/>
+                                    <action selector="rollDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhp-vL-wWD"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zaX-5b-X7b">
+                                <rect key="frame" x="37" y="0.0" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="6Hf-3U-Jte">
+                                <rect key="frame" x="242" y="0.0" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="FN7-As-WP6">
+                                <rect key="frame" x="37" y="115" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="juS-ci-tkA">
+                                <rect key="frame" x="37" y="226" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="EWa-oG-Chs">
+                                <rect key="frame" x="244" y="115" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="d7a-oh-VG8">
+                                <rect key="frame" x="242" y="226" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="u6y-P2-dZB">
+                                <rect key="frame" x="51" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.27477159963164755" blue="0.32667719220598623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="NtM-Ja-dfU">
+                                <rect key="frame" x="96" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="ZcV-ha-jkw">
+                                <rect key="frame" x="141" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.98533571909999995" blue="0.067141424980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="YRQ-E5-h99">
+                                <rect key="frame" x="242" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88110523029999999" green="0.93569695949999998" blue="0.90262266280000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="qUV-Gf-zw9">
+                                <rect key="frame" x="290" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.66884041380000003" blue="0.13140226739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="arO-cI-MQI">
+                                <rect key="frame" x="186" y="405" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18495243720000001" green="1" blue="0.86306948719999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="hHs-1U-Acy">
+                                <rect key="frame" x="140" y="115" width="96" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="dice1" destination="zaX-5b-X7b" id="IDK-vo-v8S"/>
+                        <outlet property="dice2" destination="FN7-As-WP6" id="Fa7-lf-jj0"/>
+                        <outlet property="dice3" destination="juS-ci-tkA" id="ewX-pg-Puz"/>
+                        <outlet property="dice4" destination="6Hf-3U-Jte" id="SLt-ps-Vk8"/>
+                        <outlet property="dice5" destination="EWa-oG-Chs" id="naN-qt-EAV"/>
+                        <outlet property="dice6" destination="d7a-oh-VG8" id="hWv-p9-zUs"/>
+                        <outlet property="dice7" destination="hHs-1U-Acy" id="btc-uO-BLq"/>
+                        <outlet property="roll1" destination="u6y-P2-dZB" id="LjG-dk-S46"/>
+                        <outlet property="roll2" destination="NtM-Ja-dfU" id="EHf-75-HIe"/>
+                        <outlet property="roll3" destination="ZcV-ha-jkw" id="iUw-z2-jwe"/>
+                        <outlet property="roll4" destination="arO-cI-MQI" id="0jn-Rr-bUT"/>
+                        <outlet property="roll5" destination="YRQ-E5-h99" id="vNI-TS-N66"/>
+                        <outlet property="roll6" destination="qUV-Gf-zw9" id="k7d-kJ-qjs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.5" y="113.5"/>
+            <point key="canvasLocation" x="221" y="55"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
