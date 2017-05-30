@@ -77,11 +77,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.076801950417497822" green="0.14185634837791616" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="J68-RY-jp3">
-                                <rect key="frame" x="319" y="417" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55319980598857876" green="0.055371108378672464" blue="0.93711544689119175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KJ2-o6-dr5">
                                 <rect key="frame" x="153" y="543" width="68" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -91,9 +86,29 @@
                                     <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="J68-RY-jp3">
+                                <rect key="frame" x="319" y="417" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55319980598857876" green="0.055371108378672464" blue="0.93711544689119175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="dieBottomLeft" destination="ch2-CU-kV7" id="Dp3-2v-7Wd"/>
+                        <outlet property="dieBottomRight" destination="aGh-y3-WC1" id="8BA-Ut-9qF"/>
+                        <outlet property="dieMiddle" destination="wgE-YR-0AK" id="cDb-gL-ohn"/>
+                        <outlet property="dieMiddleLeft" destination="IyR-ly-BjG" id="7Vb-vg-LTl"/>
+                        <outlet property="dieMiddleRight" destination="nMw-PZ-hpD" id="keV-oq-jAf"/>
+                        <outlet property="dieTopLeft" destination="mZq-aZ-ok2" id="wAk-eA-PuG"/>
+                        <outlet property="dieTopRight" destination="o33-rz-rPf" id="lqA-8S-ulw"/>
+                        <outlet property="scoreBox1" destination="gCN-mJ-6sO" id="DFX-Im-1P6"/>
+                        <outlet property="scoreBox2" destination="GC5-Z4-UG9" id="ZIn-ML-x2x"/>
+                        <outlet property="scoreBox3" destination="d1a-zg-lWr" id="WR1-8P-BI7"/>
+                        <outlet property="scoreBox4" destination="ue6-Lw-POV" id="TYs-AC-GoZ"/>
+                        <outlet property="scoreBox5" destination="v2o-ol-Ass" id="fc0-Fi-7xR"/>
+                        <outlet property="scoreBox6" destination="J68-RY-jp3" id="DGw-HF-JUG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
