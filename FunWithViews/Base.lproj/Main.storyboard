@@ -137,7 +137,7 @@
                                 <color key="backgroundColor" red="0.55319980598857876" green="0.055371108378672464" blue="0.93711544689119175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mpf-cA-T0V">
-                                <rect key="frame" x="155" y="521" width="65" height="62"/>
+                                <rect key="frame" x="155" y="493" width="65" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="🎲"/>
@@ -145,6 +145,20 @@
                                     <action selector="dieRoll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VaA-P1-WpY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jpf-b0-M5j">
+                                <rect key="frame" x="166" y="577" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YN4-XY-Lth">
+                                <rect key="frame" x="155" y="606" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -168,6 +182,7 @@
                         <outlet property="scoreLabel4" destination="0Bn-3s-kvn" id="fe0-bj-Rdl"/>
                         <outlet property="scoreLabel5" destination="9n7-8a-OO0" id="ExE-l7-VBC"/>
                         <outlet property="scoreLabel6" destination="MCe-2K-XJq" id="gvu-P7-ySd"/>
+                        <outlet property="total" destination="YN4-XY-Lth" id="GsZ-tE-rRT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

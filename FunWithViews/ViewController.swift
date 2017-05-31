@@ -43,11 +43,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel4: UILabel!
     @IBOutlet weak var scoreLabel5: UILabel!
     @IBOutlet weak var scoreLabel6: UILabel!
+    
+    @IBOutlet weak var total: UILabel!
+    
 
     @IBAction func dieRoll(_ sender: Any) {
         let roll = randomDiceRoll()
         showRoll(roll)
-        updateBoxAndLabel(String(roll))
+        if scoreLabel6.isHidden {
+            updateBoxAndLabel(String(roll))
+        } else {
+            shiftLabels(String(roll))
+        }
+        updateTotal()
+    }
+    
+    func updateTotal() {
+        let one   = Int(scoreLabel1.text!)!
+        let two   = Int(scoreLabel2.text!)!
+        let three = Int(scoreLabel3.text!)!
+        let four  = Int(scoreLabel4.text!)!
+        let five  = Int(scoreLabel5.text!)!
+        let six   = Int(scoreLabel6.text!)!
+        let combinedTotal = one + two + three + four + five + six
+        total.text = String(combinedTotal)
     }
 
     func showRoll(_ roll: Int) {
@@ -91,11 +110,20 @@ class ViewController: UIViewController {
             scoreLabel5.text = result
             scoreLabel5.isHidden = false
             scoreBox5.isHidden = false
-        } else if scoreLabel6.isHidden {
+        } else {
             scoreLabel6.text = result
             scoreLabel6.isHidden = false
             scoreBox6.isHidden = false
         }
+    }
+    
+    func shiftLabels(_ result: String) {
+        scoreLabel1.text = scoreLabel2.text
+        scoreLabel2.text = scoreLabel3.text
+        scoreLabel3.text = scoreLabel4.text
+        scoreLabel4.text = scoreLabel5.text
+        scoreLabel5.text = scoreLabel6.text
+        scoreLabel6.text = result
     }
 
     func show1() {
