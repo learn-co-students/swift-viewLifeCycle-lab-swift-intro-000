@@ -1,20 +1,24 @@
-//
-//  ViewController.swift
-//  FunWithViews
-//
-//  Created by Jim Campagno on 9/17/16.
-//  Copyright © 2016 Flatiron School. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        clearViews()
+        clearLabels()
+    }
+
+    func clearViews() {
         let allViews = allDieViews() + allScoreBoxes()
         for view in allViews {
             view.isHidden = true
+        }
+    }
+
+    func clearLabels() {
+        let allLabels = allScoreLabels()
+        for label in allLabels {
+            label.isHidden = true
         }
     }
 
@@ -33,9 +37,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreBox5: UIView!
     @IBOutlet weak var scoreBox6: UIView!
 
+    @IBOutlet weak var scoreLabel1: UILabel!
+    @IBOutlet weak var scoreLabel2: UILabel!
+    @IBOutlet weak var scoreLabel3: UILabel!
+    @IBOutlet weak var scoreLabel4: UILabel!
+    @IBOutlet weak var scoreLabel5: UILabel!
+    @IBOutlet weak var scoreLabel6: UILabel!
+
     @IBAction func dieRoll(_ sender: Any) {
-        clearDieViews()
         let roll = randomDiceRoll()
+        showRoll(roll)
+        updateBoxAndLabel(String(roll))
+    }
+
+    func showRoll(_ roll: Int) {
+        clearDieViews()
         switch roll {
         case 1:
             show1()
@@ -51,6 +67,34 @@ class ViewController: UIViewController {
             show6()
         default:
             break
+        }
+    }
+
+    func updateBoxAndLabel(_ result: String) {
+        if scoreLabel1.isHidden {
+            scoreLabel1.text = result
+            scoreLabel1.isHidden = false
+            scoreBox1.isHidden = false
+        } else if scoreLabel2.isHidden {
+            scoreLabel2.text = result
+            scoreLabel2.isHidden = false
+            scoreBox2.isHidden = false
+        } else if scoreLabel3.isHidden {
+            scoreLabel3.text = result
+            scoreLabel3.isHidden = false
+            scoreBox3.isHidden = false
+        } else if scoreLabel4.isHidden {
+            scoreLabel4.text = result
+            scoreLabel4.isHidden = false
+            scoreBox4.isHidden = false
+        } else if scoreLabel5.isHidden {
+            scoreLabel5.text = result
+            scoreLabel5.isHidden = false
+            scoreBox5.isHidden = false
+        } else if scoreLabel6.isHidden {
+            scoreLabel6.text = result
+            scoreLabel6.isHidden = false
+            scoreBox6.isHidden = false
         }
     }
 
@@ -102,8 +146,7 @@ class ViewController: UIViewController {
 
     func allDieViews() -> Array<UIView> {
         return [
-            dieTopLeft, dieMiddleLeft, dieBottomLeft,
-            dieMiddle,
+            dieTopLeft, dieMiddleLeft, dieBottomLeft, dieMiddle,
             dieTopRight, dieMiddleRight, dieBottomRight
         ]
     }
@@ -112,6 +155,13 @@ class ViewController: UIViewController {
         return [
             scoreBox1, scoreBox2, scoreBox3,
             scoreBox4, scoreBox5, scoreBox6
+        ]
+    }
+
+    func allScoreLabels() -> Array<UILabel> {
+        return [
+            scoreLabel1, scoreLabel2, scoreLabel3,
+            scoreLabel4, scoreLabel5, scoreLabel6
         ]
     }
 
