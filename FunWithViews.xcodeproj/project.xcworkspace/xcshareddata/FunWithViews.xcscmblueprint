@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C" : 9223372036854775807,
+    "9E597BBE87E95B2839A79FC65E398B71517818AF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB953BF6-754D-4AE9-9C5F-0CEA82B094C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C" : "swift-viewLifeCycle-lab-swift-intro-000\/",
+    "9E597BBE87E95B2839A79FC65E398B71517818AF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FunWithViews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FunWithViews.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/samudrar\/swift-interfaceBuilder-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E597BBE87E95B2839A79FC65E398B71517818AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/samudrar\/swift-viewLifeCycle-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F171C6D62F51FA2037CEB81C8DCC5831C2C3643C"
+    }
+  ]
+}
