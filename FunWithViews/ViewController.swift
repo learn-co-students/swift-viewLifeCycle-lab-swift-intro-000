@@ -10,6 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view3: UIView!
+    @IBOutlet weak var view4: UIView!
+    @IBOutlet weak var view5: UIView!
+    @IBOutlet weak var view6: UIView!
+    @IBOutlet weak var view7: UIView!
+    
+    @IBOutlet weak var RedLabel: UILabel!
+    @IBOutlet weak var OrangeLabel: UILabel!
+    @IBOutlet weak var YellowLabel: UILabel!
+    @IBOutlet weak var GreenLabel: UILabel!
+    @IBOutlet weak var BlueLabel: UILabel!
+    @IBOutlet weak var MagentaLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

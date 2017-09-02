@@ -112,6 +112,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="BlueLabel" destination="Km6-8c-4Pj" id="z6G-Fr-ccc"/>
+                        <outlet property="GreenLabel" destination="7GG-du-5Ln" id="fqJ-Bk-Lgc"/>
+                        <outlet property="MagentaLabel" destination="Pw0-kH-ZOk" id="9bU-oz-lDZ"/>
+                        <outlet property="OrangeLabel" destination="4BB-CG-eJA" id="FPt-OD-ZKZ"/>
+                        <outlet property="RedLabel" destination="7oo-q7-zoD" id="TzV-Dq-k3Y"/>
+                        <outlet property="YellowLabel" destination="nOh-jA-tMB" id="bex-Uy-a0V"/>
+                        <outlet property="view1" destination="t9z-oJ-r1R" id="ctA-0o-RDw"/>
+                        <outlet property="view2" destination="eyF-oS-iI7" id="047-yJ-D8k"/>
+                        <outlet property="view3" destination="rrb-eq-kvS" id="DHV-ad-8ma"/>
+                        <outlet property="view4" destination="FY4-Rp-Q7s" id="uRJ-OB-cgZ"/>
+                        <outlet property="view5" destination="B8D-dP-FwS" id="MLM-z8-cFS"/>
+                        <outlet property="view6" destination="kOg-YI-9NX" id="fxz-Zz-nhH"/>
+                        <outlet property="view7" destination="izF-Dp-pS7" id="uqc-f6-0cq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
