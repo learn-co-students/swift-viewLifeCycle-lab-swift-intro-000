@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var numberOfRolls: Int = -1
+    
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     @IBOutlet weak var view3: UIView!
@@ -47,16 +49,46 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-
+      numberOfRolls += 1
+      numberOfRolls = numberOfRolls % 6
+ //     print(numberOfRolls)
       let rollNumber: Int = randomDiceRoll()
       displayDice(rollNumber)
-      print(rollNumber)
+      addDiceRoll(rollNumber, numberOfRolls)
+ //     print(rollNumber)
         
     }
     
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
+    }
+    
+    func addDiceRoll(_ diceRoll: Int,_ numberOfRolls: Int){
+        switch numberOfRolls {
+        case 0:
+            RedLabel.text = String(diceRoll)
+            RedLabel.isHidden = false
+        case 1:
+            OrangeLabel.text = String(diceRoll)
+            OrangeLabel.isHidden = false
+        case 2:
+            YellowLabel.text = String(diceRoll)
+            YellowLabel.isHidden = false
+        case 3:
+            GreenLabel.text = String(diceRoll)
+            GreenLabel.isHidden = false
+        case 4:
+            BlueLabel.text = String(diceRoll)
+            BlueLabel.isHidden = false
+        case 5:
+            MagentaLabel.text = String(diceRoll)
+            MagentaLabel.isHidden = false
+        default:
+            RedLabel.text = String(diceRoll)
+            RedLabel.isHidden = false
+        }
+        
     }
     
     func displayDice(_ diceRoll: Int){
