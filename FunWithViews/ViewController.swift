@@ -150,7 +150,14 @@ class ViewController: UIViewController {
         }else if blue.isHidden {
                 blue.text = score
                 blue.isHidden = false
-            }
+        }else{
+        green.text = score
+        blue.isHidden = true
+        red.isHidden = true
+        yellow.isHidden = true
+        pink.isHidden = true
+        purple.isHidden = true
+        }
         
         
 }
