@@ -113,13 +113,12 @@
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="labelFive" destination="rRZ-fu-Af2" id="JcZ-lK-su5"/>
-                        <outlet property="labelFour" destination="asW-bm-zP5" id="1iq-oX-0Ht"/>
-                        <outlet property="labelOne" destination="SEm-ca-0nb" id="pSs-7z-6dg"/>
-                        <outlet property="labelSix" destination="rRZ-fu-Af2" id="qIh-U7-yqf"/>
-                        <outlet property="labelThree" destination="SFk-ly-cqp" id="eey-Kz-R61"/>
-                        <outlet property="labelTwo" destination="9jO-Jr-yM1" id="yLb-oO-Tob"/>
-                        <outlet property="view" destination="faP-3K-EgV" id="rOn-ar-6RZ"/>
+                        <outlet property="labelFive" destination="rRZ-fu-Af2" id="JRZ-y0-7vw"/>
+                        <outlet property="labelFour" destination="asW-bm-zP5" id="7up-yg-bEa"/>
+                        <outlet property="labelOne" destination="SEm-ca-0nb" id="IMU-Hu-SCG"/>
+                        <outlet property="labelSix" destination="eJS-et-Gsb" id="MTb-8l-mUR"/>
+                        <outlet property="labelThree" destination="SFk-ly-cqp" id="ZfW-tb-oRx"/>
+                        <outlet property="labelTwo" destination="9jO-Jr-yM1" id="iVW-yS-ZbD"/>
                         <outlet property="view1" destination="rxO-OA-ml4" id="4Nw-ZS-Afb"/>
                         <outlet property="view2" destination="faP-3K-EgV" id="rEX-rY-WUN"/>
                         <outlet property="view3" destination="ZHZ-cC-qDh" id="iGt-Mn-KkS"/>
@@ -127,8 +126,6 @@
                         <outlet property="view5" destination="5xh-OJ-zCR" id="wV8-Dy-1VD"/>
                         <outlet property="view6" destination="XlR-65-IZJ" id="Nai-9y-YrZ"/>
                         <outlet property="view7" destination="dDg-hB-cZc" id="Qtl-GM-h1k"/>
-                        <outlet property="viewController" destination="5xh-OJ-zCR" id="DmL-aV-eaI"/>
-                        <outlet property="viewsOutlet" destination="XlR-65-IZJ" id="4Vi-gy-gba"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
