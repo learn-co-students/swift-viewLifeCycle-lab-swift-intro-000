@@ -64,7 +64,7 @@ Well, okay. This is a pretty hard assignment, so we'll give you some hints on th
 3. Open up `ViewController.swift` in an Assistant Editor pane.
 4. You should first add the seven views representing the dice to the top half of the interface. You can drag these views from the object library onto the Interface Builder canvas, and arrange them as shown in the screenshots above.
 5. You should then add the six colored score labels along the middle of the screen. Remember: You can set their background color using the Attributes Inspector.
-6. Since you will be interacting with all thirteen of these views, you should configure IB outlets in `ViewController` so that the view controller can interact with them. <kbd>Control</kbd>-drag a connection from each of these twelve views to `ViewController.swift` to create them.
+6. Since you will be interacting with all thirteen of these views, you should configure IB outlets in `ViewController` so that the view controller can interact with them. <kbd>Control</kbd>-drag a connection from each of these thirteen views to `ViewController.swift` to create them.
 7. These views should initially be hidden from the user, so you should do some setup in `ViewController`'s `viewDidLoad()` method to hide them initially.
 8. The main view already has a button configured at the bottom, but it is not hooked up to anything yet. <kbd>Control</kbd>-drag from the button to `ViewController.swift` to create a new IB action for the button.
 9. The dice button's IB action needs to do several things:
@@ -72,11 +72,30 @@ Well, okay. This is a pretty hard assignment, so we'll give you some hints on th
 	2. It needs to show and hide the appropriate black square views in order to display how that random roll would look on a real die.
 	3. It needs to update the score labels with the result of the random roll. You can update score labels with code like this:
 
-        ```swift
-        scoreLabel1.text = "\(randomRollValue)"
-        ```
-       
-	4. The above work should be done in separate methods. For example, you may create a method called `rearrangeDie()` that will show or hide the black squares, and `updateScore()` that will update one of the score labels. Those methods should be called from the die button's IB action method, rather than having all the work done in one place. This is not _necessary_, but it will make your code a bit more organized, and it's a good habit to get into.
+```swift
+    func updateLabelWithRoll(roll: Int) {
+        
+        let diceScore = String(roll)
+        
+        if labelOne.hidden {
+            labelOne.text = diceScore
+            labelOne.hidden = false
+        } else if labelTwo.hidden {
+            labelTwo.text = diceScore
+            labelTwo.hidden = false
+        } else if labelThree.hidden {
+            labelThree.text = diceScore
+            labelThree.hidden = false
+        }
+    
+        // .. and so on
+    }
+```
+
+This is a method called `updateLabelWithRoll(_:)` that takes in an `Int` as an argument called `roll`. In our implementation, we look to see if the various labels (our `UILabel`'s are named `labelOne`, `labelTwo`, etc. in this example) are hidden which will let us know which one we should update with the new score.
+
+
+The above work should be done in separate methods. For example, you may create a method called `rearrangeDie()` that will show or hide the black squares, and `updateScore()` that will update one of the score labels. Those methods should be called from the die button's IB action method, rather than having all the work done in one place. This is not _necessary_, but it will make your code a bit more organized, and it's a good habit to get into.
 
 That is essentially all you need to do to make this die-rolling app work. Not so bad, huh? You're a bit on your own as far as figuring out exactly how to do all that work goes, but if you get stuck, refer back to previous lessons—they can help you finish up this lab in no time at all.
 
