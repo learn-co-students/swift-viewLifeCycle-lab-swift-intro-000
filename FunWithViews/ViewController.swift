@@ -15,13 +15,28 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-        
+        var score = randomDiceRoll()
+        }
+    
+    @IBOutlet weak var one: UILabel!
+    @IBOutlet weak var five: UILabel!
+    @IBOutlet weak var three: UILabel!
+    @IBOutlet weak var two: UILabel!
+    @IBOutlet weak var four: UILabel!
+    @IBOutlet weak var six: UILabel!
+    
+    if score == 1{
+        one.backgroundColor = UIColor.Black
+    } else if score == 2{
+        one.backgroundColor = UIcolor.Black
+        two.backgroundColor = UIColor.Black
+    } else if score == 2{
         
     }
     
-    // Returns back a random Int (1, 2, 3, 4, 5, or 6)
     func randomDiceRoll() -> Int {
         return Int(arc4random_uniform(6) + 1)
     }
+    
 
 }
