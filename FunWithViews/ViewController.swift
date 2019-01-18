@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         s6View.isHidden = true
     }
     
-    @IBAction func diceButtonPush(_ sender: Any) {
+    @IBAction func dieButtonPushed(_ sender: Any) {
         let score = randomDiceRoll()
         
         
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         }
         
     }
-   
+    
     
     
     // Returns back a random Int (1, 2, 3, 4, 5, or 6)
